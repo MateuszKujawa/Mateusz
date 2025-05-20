@@ -15,16 +15,17 @@ The source code is located in the `bookmark` subdirectory within the `Mateusz` r
 ---
 
 ## 📁 Project Structure
-
+```bash
 Mateusz/
-bookmark/ # Main frontend application
-│ src/ # Source files
-│ public/ # Static assets
-│ index.html # HTML entry point
-│ vite.config.ts # Vite configuration
-│ ...
-README.md # Project documentation
+├── bookmark/            # Main frontend application
+│   ├── src/             # Source files
+│   ├── public/          # Static assets
+│   ├── index.html       # HTML entry point
+│   ├── vite.config.ts   # Vite configuration
+│   └── ...              # Other project files
+└── README.md            # Project documentation
 
+```
 
 ---
 
