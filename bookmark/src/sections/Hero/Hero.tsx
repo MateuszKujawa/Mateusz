@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <section id="hero">
-        <div className="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0">
+        <div className="container flex flex-col-reverse mx-auto max-w-7xl p-6 lg:flex-row lg:mb-0">
           <div className="flex flex-col space-y-8 mt-18 lg:mt-16 lg:w-1/2">
             <h1 className="text-3xl font-semibold text-center lg:text-5xl lg:text-left px-4 md:px-0">
               A Simple Bookmark Manager
