@@ -71,7 +71,9 @@ const Newsletter = () => {
               </div>
               <input
                 type="submit"
-                className="inline-flex px-6 py-3 text-center text-white duration-200 transform rounded-lg cursor-pointer focus:outline-none border-2 border-transparent bg-red-primary hover:bg-white hover:text-red-primary hover:border-red-primary w-full md:w-fit"
+                className={`inline-flex px-6 py-3 text-center text-white duration-200 transform rounded-lg cursor-pointer focus:outline-none border-2 border-transparent bg-red-primary hover:bg-white hover:text-red-primary hover:border-red-primary w-full md:w-fit ${
+                  error ? "mt-8 md:mt-0" : ""
+                }`}
                 value="Contact Us"
               />
             </div>
